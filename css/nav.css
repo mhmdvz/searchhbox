@@ -1,0 +1,14 @@
+.nav__lists {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav__list {
+    padding: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+    .nav__lists {
+        display: none;
+    }
+}
